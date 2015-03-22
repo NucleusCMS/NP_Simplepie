@@ -103,7 +103,7 @@ var $template_data = array();
                 if ($option[0] === 'text')
                 {
                     require_once(dirname(__FILE__) . '/simplepie/class.html2text.inc');
-                    $h2t =& new html2text($value);
+                    $h2t = new html2text($value);
                     
                     // Simply call the get_text() method for the class to convert
                     // the HTML to the plain text. Store it into the variable.
@@ -175,7 +175,7 @@ var $template_data = array();
                 if ($option[0] === 'text')
                 {
                     require_once(dirname(__FILE__) . '/simplepie/class.html2text.inc');
-                    $h2t =& new html2text($value);
+                    $h2t = new html2text($value);
                     
                     // Simply call the get_text() method for the class to convert
                     // the HTML to the plain text. Store it into the variable.
