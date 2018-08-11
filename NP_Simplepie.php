@@ -24,7 +24,7 @@ var $template_data = array();
     function getName()              {return 'Simplepie: Import RSS/ATOM feeds in your weblog.'; }
     function getAuthor()            {return 'ZeRo'; }
     function getURL()               {return 'http://nucleus.petit-power.com/'; }
-    function getVersion()           {return VERSION_NP_SIMPLEPIE; }
+    function getVersion()           {return '1.01c'; }
     function getDescription()       {return 'Call this to import a RSS/ATOM feed.';}
     function supportsFeature($what) {return in_array($what,array('SqlTablePrefix'));}
     function getEventList()         {return array('PreItem');}
